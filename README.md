@@ -72,7 +72,7 @@ Performs a calculation based on the input.
   "operation": "add",
   "result": 15
 }
-
+```
 
 Running the Application Locally
 
