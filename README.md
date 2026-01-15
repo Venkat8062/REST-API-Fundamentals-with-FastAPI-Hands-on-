@@ -33,17 +33,15 @@ calculator-api/
 └── README.md         # Project documentation
 ```
 
----
+API Endpoints
+Health Check
 
-## API Endpoints
-
-### Health Check
-**GET** `/health`
+GET /health
 
 Used to verify that the application is running.
 
-**Response**
-```json
+Response
+
 {
   "status": "ok"
 }
