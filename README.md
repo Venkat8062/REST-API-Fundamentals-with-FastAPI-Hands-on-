@@ -74,140 +74,52 @@ Performs a calculation based on the input.
 }
 ```
 
-Running the Application Locally
+## Running the Application Locally
 
-    Create and Activate Virtual Environment python3 -m venv venv source venv/bin/activate
+ 1-   Create and Activate Virtual Environment python3 -m venv venv source venv/bin/activate
 
-    Install Dependencies pip install -r requirements.txt
+ 2-   Install Dependencies pip install -r requirements.txt
 
-    Run the Application uvicorn main:app --reload
+ 3-   Run the Application uvicorn main:app --reload
 
-The API will be available at:
-
-http://127.0.0.1:8000
-
-API Documentation (Swagger UI)
-
-FastAPI automatically generates interactive API documentation.
-
-Access it here:
-
-http://127.0.0.1:8000/docs
-
-Key Learnings
-
-Built a stateless REST API
-
-Understood request–response flow
-
-Used FastAPI for routing and validation
-
-Used Uvicorn to run a local HTTP server
-
-Followed clean project and Git practices
-
-Next Steps
-
-This repository will be extended step by step to cover:
-
-Dockerizing the application
-
-Running the API in Kubernetes (Minikube)
-
-CI/CD using Jenkins
-
-Infrastructure automation concepts
-
-This marks the completion of the local REST API phase.
-
-Author
-
-Venkatraman Hands-on DevOps & Cloud Learning Project
-Calculator
-
-POST /calculate
-
-Performs a calculation based on the input.
-
-Request Body
-
-{
-  "a": 10,
-  "b": 5,
-  "operation": "add"
-}
-
-
-Supported Operations
-
-add
-
-subtract
-
-multiply
-
-divide
-
-Response
-
-{
-  "a": 10,
-  "b": 5,
-  "operation": "add",
-  "result": 15
-}
-
-Running the Application Locally
-1. Create and Activate Virtual Environment
-python3 -m venv venv
-source venv/bin/activate
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Run the Application
-uvicorn main:app --reload
-
-
-The API will be available at:
+# The API will be available at:
 
 http://127.0.0.1:8000
 
-API Documentation (Swagger UI)
+## API Documentation (Swagger UI)
 
 FastAPI automatically generates interactive API documentation.
 
-Access it here:
+## Access it here:
 
 http://127.0.0.1:8000/docs
 
-Key Learnings
+## Key Learnings
 
-Built a stateless REST API
+ - Built a stateless REST API
 
-Understood request–response flow
+ - Understood request–response flow
 
-Used FastAPI for routing and validation
+ - Used FastAPI for routing and validation
 
-Used Uvicorn to run a local HTTP server
+ - Used Uvicorn to run a local HTTP server
 
-Followed clean project and Git practices
+ - Followed clean project and Git practices
 
-Next Steps
+## Next Steps
 
 This repository will be extended step by step to cover:
 
-Dockerizing the application
+ - Dockerizing the application
 
-Running the API in Kubernetes (Minikube)
+ - Running the API in Kubernetes (Minikube)
 
-CI/CD using Jenkins
+ - CI/CD using Jenkins
 
-Infrastructure automation concepts
+ - Infrastructure automation concepts
 
-This marks the completion of the local REST API phase.
+## This marks the completion of the local REST API phase.
 
-Author
+## Author
 
-Venkatraman
-Hands-on DevOps & Cloud Learning Project
+## Venkatraman Hands-on DevOps & Cloud Learning Project
