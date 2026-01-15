@@ -118,8 +118,8 @@ This repository will be extended step by step to cover:
 
  - Infrastructure automation concepts
 
-## This marks the completion of the local REST API phase.
+**This marks the completion of the local REST API phase.**
 
-## Author
+# Author
 
-## Venkatraman Hands-on DevOps & Cloud Learning Project
+**Venkatraman Hands-on DevOps & Cloud Learning Project**
